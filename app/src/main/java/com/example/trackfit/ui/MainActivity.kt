@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setTheme(R.style.AppTheme)
         setSupportActionBar(binding.toolbar)
 
 
@@ -39,9 +40,14 @@ class MainActivity : AppCompatActivity() {
                     binding.bottomNavigationView.visibility = View.VISIBLE
                     binding.tvToolbarTitle.text = destination.label.toString()
                 }
+                R.id.trackingFragment -> {
+                    binding.bottomNavigationView.visibility = View.GONE
+                    binding.tvToolbarTitle.text = destination.label.toString()
+                }
                 else ->{
                     binding.bottomNavigationView.visibility = View.GONE
                 }
+
             }
         }
 
