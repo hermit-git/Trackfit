@@ -14,5 +14,5 @@ data class Run(
     var caloriesBurnt:Int = 0
 ) {
     @PrimaryKey(autoGenerate = true)
-    val id:Int = 0
+    var id:Int = 0
 }

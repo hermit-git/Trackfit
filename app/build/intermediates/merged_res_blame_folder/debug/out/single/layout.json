@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_run.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\fragment_run.xml"
+    },
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tracking.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\fragment_tracking.xml"
+    },
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_run.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\item_run.xml"
+    },
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setup.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\fragment_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\H3RMIT\\Documents\\GitHub\\Trackfit\\app\\src\\main\\res\\layout\\fragment_statistics.xml"
+    }
+]
