@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     binding.tvToolbarTitle.text = destination.label.toString()
                 }
                 else ->{
-                    binding.bottomNavigationView.visibility = View.INVISIBLE
+                    binding.bottomNavigationView.visibility = View.GONE
                 }
             }
         }
