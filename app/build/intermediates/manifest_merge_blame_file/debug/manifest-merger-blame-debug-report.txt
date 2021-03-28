@@ -39,7 +39,7 @@
 22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 23
 24    <application
-24-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:9:5-31:19
+24-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:9:5-34:19
 25        android:name="com.example.trackfit.MyApplication"
 25-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:10:9-38
 26        android:allowBackup="true"
@@ -77,64 +77,71 @@
 43            </intent-filter>
 44        </activity>
 45
-46        <meta-data
-46-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:25:9-27:69
-47            android:name="com.google.android.gms.version"
-47-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:26:13-58
-48            android:value="@integer/google_play_services_version" />
-48-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:27:13-66
-49        <meta-data
-49-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:28:9-30:55
-50            android:name="com.google.android.geo.API_KEY"
-50-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:29:13-58
-51            android:value="@string/google_maps_key" />
-51-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:30:13-52
-52
-53        <activity
-53-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
-54            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-54-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
-55            android:exported="false"
-55-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
-56            android:label=""
-56-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
-57            android:theme="@style/EasyPermissions.Transparent" />
-57-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
-58
-59        <service
-59-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-60            android:name="androidx.room.MultiInstanceInvalidationService"
-60-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
-61            android:directBootAware="true"
-61-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
-62            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
-62-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
-63        <uses-library
-63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-64            android:name="org.apache.http.legacy"
-64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-65            android:required="false" />
-65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-66
-67        <activity
-67-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-71
-72        <provider
-72-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-73            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-73-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-74            android:authorities="com.example.trackfit.lifecycle-process"
-74-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-75            android:exported="false"
-75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-76            android:multiprocess="true" />
-76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-77    </application>
-78
-79</manifest>
+46        <service
+46-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:25:9-26:55
+47            android:name="com.example.trackfit.services.TrackingService"
+47-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:25:18-58
+48            android:foregroundServiceType="location" />
+48-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:26:13-53
+49
+50        <meta-data
+50-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:28:9-30:69
+51            android:name="com.google.android.gms.version"
+51-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:29:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:30:13-66
+53        <meta-data
+53-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:31:9-33:55
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:32:13-58
+55            android:value="@string/google_maps_key" />
+55-->C:\Users\H3RMIT\Documents\GitHub\Trackfit\app\src\main\AndroidManifest.xml:33:13-52
+56
+57        <activity
+57-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+58            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+58-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+59            android:exported="false"
+59-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+60            android:label=""
+60-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+61            android:theme="@style/EasyPermissions.Transparent" />
+61-->[pub.devrel:easypermissions:3.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\11de9c148376cb0cfe8541acec6ace68\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+62
+63        <service
+63-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+64            android:name="androidx.room.MultiInstanceInvalidationService"
+64-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+65            android:directBootAware="true"
+65-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+66            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+66-->[androidx.room:room-runtime:2.2.6] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\e40600c7c4bc075d9d53800dbe0ecd38\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+67        <uses-library
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+68            android:name="org.apache.http.legacy"
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+69            android:required="false" />
+69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\df6b960590e48c1bd3bd878709f0e79e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\2d3eb75761deca9bb445459d5d4513aa\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+75
+76        <provider
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+77            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+78            android:authorities="com.example.trackfit.lifecycle-process"
+78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+79            android:exported="false"
+79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+80            android:multiprocess="true" />
+80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\H3RMIT\.gradle\caches\transforms-2\files-2.1\d759e804e72f1ad89a3433d7935fcfaa\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+81    </application>
+82
+83</manifest>

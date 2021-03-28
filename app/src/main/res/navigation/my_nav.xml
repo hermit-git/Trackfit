@@ -5,6 +5,10 @@
     android:id="@+id/my_nav"
     app:startDestination="@id/setupFragment">
 
+    <action android:id="@+id/actionGlobalTrackingFragment"
+        app:destination="@+id/trackingFragment"
+        app:launchSingleTop="true"/>
+
     <fragment
         android:id="@+id/runFragment"
         android:name="com.example.trackfit.ui.run.RunFragment"

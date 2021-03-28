@@ -1,6 +1,7 @@
 package com.example.trackfit.ui
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.trackfit.R
 import com.example.trackfit.databinding.ActivityMainBinding
+import com.example.trackfit.utils.Constants.Companion.ACTION_SHOW_TRACKING_FRAGMENT
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -24,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        navigateToTrackingFragmentIfNeeded(intent)
 
         setTheme(R.style.AppTheme)
         setSupportActionBar(binding.toolbar)
@@ -55,6 +59,17 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        navigateToTrackingFragmentIfNeeded(intent)
+    }
+
+    private fun navigateToTrackingFragmentIfNeeded(intent: Intent?){
+        if(intent?.action == ACTION_SHOW_TRACKING_FRAGMENT){
+            navController.navigate(R.id.actionGlobalTrackingFragment)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

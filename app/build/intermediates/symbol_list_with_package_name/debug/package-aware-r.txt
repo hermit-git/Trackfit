@@ -1899,6 +1899,7 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
+id actionGlobalTrackingFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
